@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum - Jonathan Calustro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .resume-container {
+            max-width: 900px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            background-color: #153763;
+            color: white;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #fff;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+            .profile-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        .name {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        .about {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            list-style: none;
+        }
+
+            .contact-info li {
+                margin-bottom: 10px;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+
+        .skills, .languages {
+            list-style: none;
+        }
+
+            .skills li, .languages li {
+                margin-bottom: 8px;
+            }
+
+        /* Main Content */
+        .main-content {
+            padding: 20px;
+        }
+
+        .main-section {
+            margin-bottom: 20px;
+        }
+
+        .main-section-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #153763;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 15px;
+        }
+
+        .experience-item-title, .education-item-title {
+            font-weight: bold;
+            font-size: 1rem;
+            color: #153763;
+        }
+
+        .experience-item-dates, .education-item-dates {
+            font-size: 0.9rem;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .experience-item-details {
+            margin-left: 15px;
+            list-style: disc;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="profile-image">
+                <img src="https://via.placeholder.com/120" alt="Foto de perfil">
+            </div>
+            <ul class="skills">
+                <li>22 años</li>
+                <li>Nacionalidad Boliviana</li>
+                <li>5 de febrero de 2002</li>
+            </ul>
+            <div class="section">
+                <div class="section-title">Contacto</div>
+                <ul class="contact-info">
+                    <li>📞 72493013</li>
+                    <li>📧 jonathan.calustro@sistemas.edu.bo</li>
+                    <li>🌐 https://github.com/JonathanCalustroF</li>
+                </ul>
+            </div>
+            <div class="section">
+                <div class="section-title">Conocimientos</div>
+                <ul class="skills">
+                    <li>JAVA</li>
+                    <li>C++</li>
+                    <li>Análisis y diseño de software</li>
+                    <li>Base de datos: Acces, MySQL y Firebase </li>
+                    <li>Desarrollo web Frontend: HTML y CSS</li>
+                    <li>Desarrollo móvil: Flutterflow</li>    
+                </ul>
+            </div>
+            <div class="section">
+                <div class="section-title">Habilidades</div>
+                <ul class="skills">
+                    <li>Creatividad</li>
+                    <li>Redacción de contenido</li>
+                    <li>Mente abierta</li>
+                    <li>Resolución de problemas</li>
+                    <li>Trabajo en equipo</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="main-section">
+                <div class="main-section-title">Perfil Personal</div>
+                <div class="profile-item">
+                    <ul class="profile-item-details">
+                        <li>Estudiante de 4to semestre de la carrera de Ingenieria de Sistemas, con conocimientos básicos en diferentes lenguajes de programación, experiencia en el área de ensamblaje de computadoras. Con disposición para seguir aprendiendo y trabajar</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-section">
+                <div class="main-section-title">Experiencia Laboral</div>
+                <div class="experience-item">
+                    <div class="experience-item-title">Zapatillas StreetWear</div>
+                    <div class="experience-item-dates">Página Web</div>
+                    <ul class="experience-item-details">
+                        <li>Identificación de oportunidades para mejorar la visibilidad de la marca.</li>
+                        <li>Implementación de campañas publicitarias en redes sociales.</li>
+                        <li>Análisis de métricas clave para evaluar el rendimiento y ajustar estrategias.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-item-title">iPhones</div>
+                    <div class="experience-item-dates">Página Web</div>
+                    <ul class="experience-item-details">
+                        <li>Creación y curación de contenido para diversas plataformas.</li>
+                        <li>Desarrollo de calendarios de publicación para maximizar la presencia en redes sociales.</li>
+                        <li>Interacción proactiva con la audiencia para fomentar la participación.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-item-title">Autos Hyundai</div>
+                    <div class="experience-item-dates">Página Web</div>
+                    <ul class="experience-item-details">
+                        <li>Planificación y ejecución de eventos promocionales.</li>
+                        <li>Colaboración con equipos internos y externos.</li>
+                        <li>Evaluación de la efectividad de las activaciones.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-item-title">UTO - MATERIAL</div>
+                    <div class="experience-item-dates">Aplicación Movil</div>
+                    <ul class="experience-item-details">
+                        <li>Planificación y ejecución de eventos promocionales.</li>
+                        <li>Colaboración con equipos internos y externos.</li>
+                        <li>Evaluación de la efectividad de las activaciones.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-section">
+                <div class="main-section-title">Educación</div>
+                <div class="education-item">
+                    <div class="education-item-title">Bachillerato</div>
+                    <div class="education-item-dates">Colegio La Salle Oruro-Bolivia</div>
+                </div>
+                <div class="education-item">
+                    <div class="education-item-title">Ingenieria de Sistemas</div>
+                    <div class="education-item-dates">Facultad Nacional de Ingenieía (FNI), Oruro</div>
+                    <div class="education-item-dates">Estudiante de 4to semestre (Actualmente cursando)</div>
+                </div>
+                <div class="education-item">
+                    <div class="education-item-title">Autodidacta en Tecnología y Ensamblaje de Computadoras</div>
+                    <div class="education-item-dates">Aprendí de manera independiente a ensamblar computadoras y explorar tecnología a través de recursos en línea, foros y tutoriales especializados.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
